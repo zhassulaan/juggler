@@ -1,0 +1,37 @@
+project1 = Project(id=1, projid='met1', title='number to word converter', deadline='2023-03-17', completed=1);
+project2 = Project(id=2, projid='len1', title='landing page for chaihana navat', deadline='2023-04-15', completed=0);
+project3 = Project(id=3, project3, title='authentication block for kundelik.kz portal', deadline='2023-01-08', completed=1);
+project4 = Project(id=4, project4, title='market total price counter', deadline='2023-02-28', completed=1);
+project5 = Project(id=5, project5, title='website for DeFacto (clothes store)', deadline='2023-05-25', completed=0);
+SELECT * FROM projectp_task
+
+task1 = Task(id=1, name='data creation', description='create array and insert string version of every distinct number', done=1, projid=project1);
+task2 = Task(id=2, name='define endings', description='russina languges has some rules related to ending of number', done=1, projid=project1);
+task3 = Task(id=3, name='split number', description='split one big number into array of elements(number by 3 digit)', done=1, projid=project1);
+task4 = Task(id=4, name='checker element', description='check element of array so you can use created data of string numbers easily', done=1, projid=project1);
+task5 = Task(id=5, name='connect & finish', description='connect array of strings into one big string', done=1, projid=project1);
+task6 = Task(id=6, name='analization ui-kit', description='analize whole design', done=1, projid=project2);
+task7 = Task(id=7, name='main css', description='prepare intergers main css that is used everywhere', done=1, projid=project2);
+task8 = Task(id=8, name='components', description='make main components for page such as button, form and frame', done=1, projid=project2);
+task9 = Task(id=9, name='page layout', description='prepare page template', done=0, projid=project2);
+task10 = Task(id=10, name='style', description='add style for every block', done=0, projid=project2);
+task11 = Task(id=11, name='animations', description='add some smoth animations', done=0, projid=project2);
+task12 = Task(id=12, name='rules', description='prepare rules for password', done=1, projid=project3);
+task13 = Task(id=13, name='html & css', description='prepare template and style it', done=1, projid=project3);
+task14 = Task(id=14, name='js', description='realise authentication in javascript and add cteict rules', done=1, projid=project3);
+task15 = Task(id=15, name='analyze', description='analyze ways to solve the problem', done=1, projid=project4);
+task16 = Task(id=16, name='array of el', description='check each element of products array', done=1, projid=project4);
+task17 = Task(id=17, name='multiply', description='multiply the number of each element to its prise', done=1, projid=project4);
+task18 = Task(id=18, name='sumarise', description='sumarise the array', done=1, projid=project4);
+task19 = Task(id=19, name='analization ui-kit', description='analize whole design', done=1, projid=project5);
+task20 = Task(id=20, name='main css', description='prepare intergers main css that is used everywhere', done=1, projid=project5);
+task21 = Task(id=21, name='components', description='make main components for page such as button, form and frame', done=1, projid=project5);
+task22 = Task(id=22, name='home page', description='make home page with css', done=0, projid=project5);
+task23 = Task(id=23, name='about page', description='make about page with css', done=0, projid=project5);
+task24 = Task(id=24, name='contacts page', description='make contacts page with css', done=0, projid=project5);
+task25 = Task(id=25, name='services page', description='make services page with css', done=0, projid=project5);
+task26 = Task(id=26, name='products page', description='make products page with css', done=0, projid=project5);
+task27 = Task(id=27, name='api', description='connect api taken from bakcend', done=0, projid=project5);
+task28 = Task(id=28, name='animations', description='add some smoth animations for website', done=0, projid=project5);
+task29 = Task(id=29, name='hosting', description='deploy website on defacto.kz some', done=0, projid=project5);
+SELECT * FROM projectp_task;
